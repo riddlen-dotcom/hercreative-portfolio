@@ -4,3 +4,18 @@
 @media(max-width:900px){.nav-links{gap:16px}.hero{gap:20px}.hero h1{font-size:4rem}.skills-grid{grid-template-columns:repeat(2,1fr)}.projects-grid{gap:13px}.project-art{height:190px}.project-info{padding:16px}.about-section{grid-template-columns:.6fr 1.4fr;gap:28px}.about-note{grid-column:2}.about-mark{width:140px;height:140px}.about-mark span{font-size:2.8rem}}
 @media(max-width:680px){.section-wrap,.site-header{width:calc(100% - 34px)}.site-header{height:72px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:65px;left:0;right:0;background:#14152a;border:1px solid var(--line);padding:18px;border-radius:14px;flex-direction:column;align-items:stretch;gap:4px;box-shadow:0 20px 40px #0005}.nav-links.open{display:flex}.nav-links>a{padding:10px 12px}.nav-cta{text-align:center;margin-top:6px}.hero{grid-template-columns:1fr;padding-top:50px;padding-bottom:50px;gap:10px}.hero h1{font-size:clamp(3.3rem,15vw,4.8rem)}.hero-visual{min-height:390px;grid-row:1}.photo-frame{width:min(270px,68%)}.photo-orbit{width:310px;height:310px}.orbit-two{width:350px;height:350px}.card-code{left:0;top:55px}.card-love{right:0;bottom:35px}.hero-copy{padding-bottom:15px}.hero-description{font-size:.92rem}.skills-section,.projects-section{padding-top:48px;padding-bottom:55px}.skills-grid{gap:11px}.skill-card{padding:16px}.heading-row{display:block}.heading-row>p{padding:0;margin-top:15px}.projects-grid{grid-template-columns:1fr;gap:18px}.project-art{height:230px}.project-info{padding:20px}.about-section{grid-template-columns:1fr;gap:25px;padding-top:45px;padding-bottom:60px}.about-mark{margin:auto;width:145px;height:145px}.about-copy h2{font-size:2rem}.about-note{grid-column:auto}.contact-section{padding-bottom:50px}.contact-banner{padding:30px 24px;display:block}.contact-banner .button{margin-top:25px}.contact-banner h2{font-size:2.1rem}.site-footer{grid-template-columns:1fr 1fr}.site-footer p{grid-column:1/-1;grid-row:2;text-align:left}.back-top{grid-column:2;grid-row:1}.site-footer>small{margin-top:12px}}
 @media(max-width:380px){.hero-actions{flex-direction:column;align-items:stretch}.social-note{font-size:.68rem}.skills-grid{grid-template-columns:1fr}.floating-card{padding:9px 10px}.floating-card strong{font-size:.7rem}.floating-card small{font-size:.6rem}}
+.email-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 12px 0;
+  transition: transform 0.3s ease;
+}
+
+.email-button:hover {
+  transform: translateY(-3px);
+}
